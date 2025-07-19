@@ -15,7 +15,9 @@
                 <i class="icon-tasks"></i> Tasks
             </router-link>
             </li>
-          <li><i class="icon-calendar"></i> Calendar</li>
+         <router-link to="/calendar">
+                <i class="icon-clanders"></i> Calendars
+            </router-link>
           <li><i class="icon-analytics"></i> Analytics</li>
           <li><i class="icon-team"></i> Team</li>
         </ul>
