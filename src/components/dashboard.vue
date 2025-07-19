@@ -649,4 +649,69 @@ hr {
 .icon-logout::before { content: "🚪"; }
 .icon-pause::before { content: "⏸"; }
 .icon-stop::before { content: "⏹"; }
+/* 👇 Responsive Styles Add kiye gaye */
+/* 🔧 Responsive Styles */
+@media (max-width: 1024px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    padding: 16px;
+  }
+
+  .main {
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .search-bar {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .dashboard-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .stats-row,
+  .analytics-row,
+  .collab-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bar {
+    width: 30px !important;
+  }
+  .bar-labels {
+    gap: 12px;
+    font-size: 0.8em;
+  }
+  .project-list li,
+  .team-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .dashboard-title h2 {
+    font-size: 1.5em;
+  }
+  .dashboard-title p {
+    font-size: 1em;
+  }
+}
+
 </style>
