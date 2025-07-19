@@ -365,5 +365,64 @@ export default {
   .calendar-year h1 {
     font-size: 2em;
   }
+  @media (max-width: 420px) {
+  .calendar-bg {
+    padding: 4px;
+    border-radius: 8px;
+  }
+
+  .calendar-left,
+  .calendar-right {
+    padding: 16px 8px;
+  }
+
+  .calendar-container {
+    border-radius: 12px;
+    box-shadow: none;
+  }
+
+  .month-box {
+    min-width: 44px;
+    font-size: 0.85em;
+  }
+
+  .months-row {
+    gap: 8px;
+  }
+
+  .calendar-table {
+    padding: 6px;
+    max-width: 100%;
+  }
+
+  .calendar-table-day {
+    min-width: 36px;
+    font-size: 0.8em;
+  }
+
+  .calendar-mini-day {
+    width: 24px;
+    height: 24px;
+    font-size: 0.85em;
+  }
+
+  .calendar-mini-row {
+    gap: 12px;
+  }
+
+  .calendar-year h1 {
+    font-size: 1.6em;
+  }
+
+  .calendar-desc {
+    font-size: 0.85em;
+    margin-bottom: 16px;
+  }
+
+  .calendar-footer {
+    font-size: 0.85em;
+  }
+}
+
 }
 </style>
