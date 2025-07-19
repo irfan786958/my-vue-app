@@ -28,114 +28,45 @@
       <div class="dashboard-main-grid">
         <!-- Latest Transactions & Pie -->
         <div class="dashboard-main-left">
-          <div class="dashboard-chart-block white-box">
+          <div class="dashboard-chart-block">
             <h4>Latest Transactions</h4>
             <span class="dashboard-chart-sub">Last 30 days</span>
             <div class="chart" id="latest-transactions">
-              <!-- Line chart SVG -->
-              <svg width="100%" height="110" viewBox="0 0 300 110">
-                <rect x="0" y="0" width="300" height="110" fill="#fff" />
-                <polyline
-                  points="0,70 20,50 40,85 60,50 80,70 100,55 120,100 140,80 160,70 180,40 200,65 220,50"
-                  fill="none"
-                  stroke="#24a2e3"
-                  stroke-width="3"
-                />
-                <text x="10" y="105" font-size="11" fill="#888">Sep 8</text>
-                <text x="110" y="105" font-size="11" fill="#888">Sep 22</text>
-                <text x="240" y="105" font-size="11" fill="#888">Oct 7</text>
-                <text x="0" y="15" font-size="10" fill="#ccc">1K</text>
-                <text x="0" y="40" font-size="10" fill="#ccc">0.6K</text>
-                <text x="0" y="70" font-size="10" fill="#ccc">0.2K</text>
-              </svg>
+              <!-- Placeholder for line chart -->
+              <div class="chart-img chart-line"></div>
             </div>
           </div>
-          <div class="dashboard-chart-block white-box">
+          <div class="dashboard-chart-block">
             <div class="chart" id="chart-pie">
-              <!-- Pie chart SVG -->
-              <svg width="110" height="110" viewBox="0 0 110 110">
-                <circle cx="55" cy="55" r="50" fill="#f5f7fa"/>
-                <path d="M55,55 L55,5 A50,50 0 0,1 105,55 Z" fill="#24a2e3"/>
-                <path d="M55,55 L105,55 A50,50 0 0,1 55,105 Z" fill="#34aadc"/>
-                <path d="M55,55 L55,105 A50,50 0 0,1 5,55 Z" fill="#b3e0fc"/>
-                <path d="M55,55 L5,55 A50,50 0 0,1 55,5 Z" fill="#f5c6cb"/>
-                <text x="40" y="55" font-size="13" fill="#555">renewal</text>
-                <text x="68" y="70" font-size="11" fill="#555">new</text>
-                <text x="30" y="90" font-size="11" fill="#555">cancellation</text>
-              </svg>
+              <!-- Placeholder for pie chart -->
+              <div class="chart-img chart-pie"></div>
             </div>
           </div>
         </div>
         <!-- Sales Numbers & Projected Revenue -->
         <div class="dashboard-main-right">
-          <div class="dashboard-chart-block white-box">
+          <div class="dashboard-chart-block">
             <h4>Sales Numbers by Month</h4>
             <div class="chart" id="sales-numbers">
-              <!-- Bar chart SVG -->
-              <svg width="100%" height="110" viewBox="0 0 300 110">
-                <rect x="0" y="0" width="300" height="110" fill="#fff" />
-                <rect x="10" y="30" width="20" height="60" fill="#24a2e3"/>
-                <rect x="40" y="35" width="20" height="55" fill="#24a2e3"/>
-                <rect x="70" y="25" width="20" height="65" fill="#24a2e3"/>
-                <rect x="100" y="40" width="20" height="50" fill="#24a2e3"/>
-                <rect x="130" y="25" width="20" height="65" fill="#24a2e3"/>
-                <rect x="160" y="45" width="20" height="45" fill="#24a2e3"/>
-                <rect x="190" y="40" width="20" height="50" fill="#24a2e3"/>
-                <rect x="220" y="70" width="20" height="20" fill="#24a2e3"/>
-                <text x="10" y="105" font-size="11" fill="#888">1/19</text>
-                <text x="50" y="105" font-size="11" fill="#888">3/19</text>
-                <text x="90" y="105" font-size="11" fill="#888">5/19</text>
-                <text x="130" y="105" font-size="11" fill="#888">7/19</text>
-                <text x="170" y="105" font-size="11" fill="#888">9/19</text>
-                <text x="210" y="105" font-size="11" fill="#888">10/19</text>
-                <text x="0" y="15" font-size="10" fill="#ccc">90K</text>
-                <text x="0" y="40" font-size="10" fill="#ccc">60K</text>
-                <text x="0" y="75" font-size="10" fill="#ccc">30K</text>
-                <text x="0" y="100" font-size="10" fill="#ccc">0K</text>
-              </svg>
+              <!-- Placeholder for bar chart -->
+              <div class="chart-img chart-bar"></div>
             </div>
           </div>
-          <div class="dashboard-chart-block white-box">
+          <div class="dashboard-chart-block">
             <h4>Projected Revenue</h4>
             <div class="dashboard-chart-legend">
               <span class="legend-projected"></span> Projected
               <span class="legend-actual"></span> Actual
             </div>
             <div class="chart" id="projected-revenue">
-              <!-- Bar chart SVG -->
-              <svg width="100%" height="110" viewBox="0 0 300 110">
-                <rect x="0" y="0" width="300" height="110" fill="#fff" />
-                <rect x="10" y="80" width="16" height="20" fill="#24a2e3"/>
-                <rect x="30" y="70" width="16" height="30" fill="#24a2e3"/>
-                <rect x="50" y="65" width="16" height="35" fill="#24a2e3"/>
-                <rect x="70" y="55" width="16" height="45" fill="#24a2e3"/>
-                <rect x="90" y="50" width="16" height="60" fill="#24a2e3"/>
-                <rect x="110" y="40" width="16" height="70" fill="#24a2e3"/>
-                <rect x="130" y="35" width="16" height="75" fill="#24a2e3"/>
-                <rect x="150" y="30" width="16" height="80" fill="#24a2e3"/>
-                <rect x="170" y="25" width="16" height="85" fill="#24a2e3"/>
-                <rect x="190" y="20" width="16" height="90" fill="#24a2e3"/>
-                <rect x="210" y="65" width="16" height="35" fill="#b3e0fc"/>
-                <rect x="230" y="60" width="16" height="40" fill="#b3e0fc"/>
-                <rect x="250" y="55" width="16" height="45" fill="#b3e0fc"/>
-                <rect x="270" y="45" width="16" height="55" fill="#b3e0fc"/>
-                <text x="10" y="105" font-size="11" fill="#888">1/19</text>
-                <text x="50" y="105" font-size="11" fill="#888">3/19</text>
-                <text x="90" y="105" font-size="11" fill="#888">5/19</text>
-                <text x="130" y="105" font-size="11" fill="#888">7/19</text>
-                <text x="170" y="105" font-size="11" fill="#888">9/19</text>
-                <text x="210" y="105" font-size="11" fill="#888">10/19</text>
-                <text x="0" y="15" font-size="10" fill="#ccc">800K</text>
-                <text x="0" y="40" font-size="10" fill="#ccc">600K</text>
-                <text x="0" y="75" font-size="10" fill="#ccc">200K</text>
-                <text x="0" y="100" font-size="10" fill="#ccc">0K</text>
-              </svg>
+              <!-- Placeholder for bar chart -->
+              <div class="chart-img chart-bar"></div>
             </div>
           </div>
         </div>
       </div>
       <!-- Table -->
-      <div class="dashboard-table-block white-box">
+      <div class="dashboard-table-block">
         <table class="dashboard-table">
           <thead>
             <tr>
@@ -214,14 +145,14 @@
 
 <script>
 export default {
-  name: "SalesDashboard",
+  name: "SalesDashboardPage",
 };
 </script>
 
 <style scoped>
 .dashboard-bg {
   min-height: 100vh;
-  background: #f5f7fa;
+  background: #f8fafc;
   padding: 0;
 }
 .dashboard-container {
@@ -316,9 +247,6 @@ export default {
   padding: 18px 18px 12px 18px;
   margin-bottom: 22px;
 }
-.white-box {
-  background: #fff;
-}
 .dashboard-chart-block h4 {
   font-size: 1.08em;
   font-weight: 600;
@@ -337,6 +265,40 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.chart-img {
+  width: 100%;
+  height: 110px;
+  background-color: #eef4fa;
+  border-radius: 10px;
+  position: relative;
+}
+.chart-line::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 16px;
+  width: 85%;
+  height: 60px;
+  background: url('data:image/svg+xml;utf8,<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg"><polyline points="0,40 18,20 36,45 54,20 72,40 90,25 108,50 126,30 144,40 162,10 180,35 200,20" fill="none" stroke="%2324a2e3" stroke-width="3"/></svg>') no-repeat center center;
+}
+.chart-pie::before {
+  content: '';
+  position: absolute;
+  left: 38px;
+  top: 5px;
+  width: 70px;
+  height: 70px;
+  background: url('data:image/svg+xml;utf8,<svg width="70" height="70" xmlns="http://www.w3.org/2000/svg"><circle cx="35" cy="35" r="35" fill="%23eef4fa"/><path d="M35,35 L35,0 A35,35 0 0,1 68,35 Z" fill="%2324a2e3"/><path d="M35,35 L68,35 A35,35 0 0,1 35,68 Z" fill="%2334aadc"/><path d="M35,35 L35,68 A35,35 0 0,1 2,35 Z" fill="%23b3e0fc"/><path d="M35,35 L2,35 A35,35 0 0,1 35,2 Z" fill="%23f5c6cb"/></svg>') no-repeat center center;
+}
+.chart-bar::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  width: 90%;
+  height: 80px;
+  background: url('data:image/svg+xml;utf8,<svg width="180" height="80" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="50" width="18" height="30" fill="%2324a2e3"/><rect x="22" y="40" width="18" height="40" fill="%2324a2e3"/><rect x="44" y="45" width="18" height="35" fill="%2324a2e3"/><rect x="66" y="38" width="18" height="42" fill="%2324a2e3"/><rect x="88" y="60" width="18" height="20" fill="%2324a2e3"/><rect x="110" y="48" width="18" height="32" fill="%2324a2e3"/><rect x="132" y="30" width="18" height="50" fill="%2324a2e3"/><rect x="154" y="65" width="18" height="15" fill="%2324a2e3"/></svg>') no-repeat center center;
 }
 .dashboard-chart-legend {
   font-size: 0.98em;
@@ -450,80 +412,48 @@ export default {
     min-width: 54px;
   }
   @media (max-width: 420px) {
-  .calendar-bg {
-    padding: 6px;
-    border-radius: 8px;
+  .dashboard-container {
+    padding: 8px 4px;
   }
 
-  .calendar-left,
-  .calendar-right {
-    padding: 10px;
+  .dashboard-header h2 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .dashboard-date-range {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 0.9em;
+  }
+
+  .dashboard-date-range input {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .summary-card {
+    padding: 12px 8px;
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .summary-main {
+    font-size: 1.1em;
+  }
+
+  .dashboard-main-grid {
     flex-direction: column;
     gap: 14px;
   }
 
-  .calendar-year h1 {
-    font-size: 1.5em;
+  .dashboard-chart-block {
+    padding: 12px 10px;
   }
 
-  .calendar-desc {
-    font-size: 0.85em;
-  }
-
-  .calendar-container {
-    border-radius: 10px;
-    padding: 12px;
-  }
-
-  .month-box {
-    min-width: 44px;
-    font-size: 0.85em;
-  }
-
-  .months-row {
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-  }
-
-  .calendar-table {
-    padding: 6px;
-  }
-
-  .calendar-table-day {
-    min-width: 34px;
-    font-size: 0.8em;
-  }
-
-  .calendar-mini-day {
-    width: 24px;
-    height: 24px;
-    font-size: 0.8em;
-  }
-
-  .calendar-mini-row {
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .calendar-footer {
-    font-size: 0.85em;
-    text-align: center;
-  }
-
-  .calendar-mini {
-    padding: 10px;
-  }
-
-  .calendar-right h3 {
-    font-size: 1em;
-  }
-
-  .calendar-right h4 {
-    font-size: 0.9em;
-  }
-}
-
+  .dashboard-chart-bl{
+  
+  }}
 }
 </style>
