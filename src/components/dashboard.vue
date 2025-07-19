@@ -15,10 +15,12 @@
                 <i class="icon-tasks"></i> Tasks
             </router-link>
             </li>
-         <router-link to="/calendar">
+            <router-link to="/calendar">
                 <i class="icon-clanders"></i> Calendars
+             </router-link><br>
+               <router-link to="/sale">
+                <i class="icon-Analytics"></i> Analytics
             </router-link>
-          <li><i class="icon-analytics"></i> Analytics</li>
           <li><i class="icon-team"></i> Team</li>
         </ul>
         <hr />
