@@ -714,4 +714,63 @@ hr {
   }
 }
 
+@media (max-width: 480px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .search-bar {
+    font-size: 0.9em;
+    padding: 8px 12px;
+  }
+
+  .dashboard-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .stats-row,
+  .analytics-row,
+  .collab-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .bar {
+    height: 60px;
+    width: 20px !important;
+  }
+
+  .bar-labels {
+    font-size: 0.7em;
+    gap: 8px;
+  }
+
+  .project-list li,
+  .team-list li {
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.85em;
+  }
+
+  .sidebar {
+    font-size: 0.85em;
+    padding: 12px;
+  }
+
+  .dashboard-title h2 {
+    font-size: 1.2em;
+  }
+
+  .dashboard-title p {
+    font-size: 0.9em;
+  }
+
+  .main {
+    padding: 12px;
+  }
+}
+
 </style>
