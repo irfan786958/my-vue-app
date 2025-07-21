@@ -1,4 +1,4 @@
-<template>
+ <template>
   
   <div class="dashboard-container">
     <!-- Sidebar -->
@@ -9,25 +9,25 @@
       </div>
       <nav>
         <ul>
-          <li class="active"><i class="icon-dashboard"></i> Dashboard</li>
+          <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
           <li>
             <router-link to="/task">
-                <i class="icon-tasks"></i> Tasks
-            </router-link><br><br>
+                <i class="fa-solid fa-list-check"></i> Tasks
+            </router-link>
             </li>
             <li>
             <router-link to="/calendar">
-                <i class="icon-clanders"></i> Calendars
+                <i class="fa-solid fa-calendar"></i> Calendars
              </router-link>
              </li>
              <li>
                <router-link to="/sale">
-                <i class="icon-Analytics"></i> Analytics
+                <i class="fa-solid fa-chart-simple"></i> Analytics
             </router-link>
             </li>
             <li>
               <router-link to="/team">
-          <i class="icon-team"></i> Team
+          <i class="fa-solid fa-people-group"></i> Team
           </router-link>
         </li>
 
