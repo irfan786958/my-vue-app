@@ -452,7 +452,7 @@ export default {
     padding: 12px 10px;
   }
 
-  .dashboard-chart-bl{
+  .dashboard-chart-bl{height: 8px;
   
   }}
 }
