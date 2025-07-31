@@ -407,7 +407,7 @@ export default {
   }
 
   .calendar-mini-row {
-    gap: 12px;
+    gap: 15px;
   }
 
   .calendar-year h1 {

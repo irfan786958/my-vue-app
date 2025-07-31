@@ -12,22 +12,22 @@
           <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
           <li>
             <router-link to="/task">
-                <i class="fa-solid fa-list-check"></i> Tasks
+                <i class="fa-solid fa-users" style="color: green;"></i> Tasks
             </router-link>
             </li>
             <li>
             <router-link to="/calendar">
-                <i class="fa-solid fa-calendar"></i> Calendars
+                <i class="fa-solid fa-calendar" style="color: green;"></i> Calendars
              </router-link>
              </li>
              <li>
                <router-link to="/sale">
-                <i class="fa-solid fa-chart-simple"></i> Analytics
+                <i class="fa-solid fa-chart-simple" style="color: green;"></i> Analytics
             </router-link>
             </li>
             <li>
               <router-link to="/team">
-          <i class="fa-solid fa-people-group"></i> Team
+          <i class="fa-solid fa-people-group" style="color: green;"></i> Team
           </router-link>
         </li>
 
